@@ -11,8 +11,8 @@ on:
       steps:
         - name: Set Timezone
           uses: szenius/set-timezone@v1.0
-        with:
-          timezoneLinuz: "Europe/Istanbul"
+          with:
+            timezoneLinuz: "Europe/Istanbul"
         - name: Checkout repository content
           uses: actions/checkout@v2 # Checkout the repository content to github runner.
         - name: Setup Python Version
